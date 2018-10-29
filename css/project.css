@@ -153,9 +153,7 @@ footer {
 
 }
 
-.foot section {
-    display: ;
-}
+.foot section {}
 
 .foot dl {
     flex-basis: 50%;
@@ -258,6 +256,25 @@ footer {
         height: auto;
         width: auto;
     }
+
+    .foot {}
+    .docs{
+        padding-bottom: 1rem;
+    }
+    .foot nav {
+        text-align: center;
+        display: inherit;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .foot section {}
+
+    .foot dl {
+    }
+    .comments{
+        clear:inherit;
+    }
 }
 
 
@@ -271,21 +288,24 @@ footer {
             "b c";
         margin: 2rem 0;
     }
-.first h1 {
+
+    .first h1 {
         color: hsl(346, 100%, 58%);
         font-size: 1.5rem;
         margin: 0rem 0rem 1rem 0rem;
         border-left: 10px solid hsl(346, 100%, 58%);
         background-color: hsl(346, 15%, 85%);
     }
-    
+
     .primary h2 {
+
         color: hsl(346, 100%, 18%);
         font-size: 1.4rem;
         margin: 1rem 0rem 1rem 0rem;
         border-left: 10px solid hsl(346, 100%, 58%);
         background-color: hsl(346, 15%, 85%);
     }
+
     .primary .first {
         grid-area: a;
         padding: 1rem;
@@ -300,9 +320,10 @@ footer {
         grid-area: c;
         padding: 1rem;
     }
+
     section p img {
         height: auto;
         width: 300px;
     }
-}
 
+}
